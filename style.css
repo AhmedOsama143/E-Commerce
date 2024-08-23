@@ -70,8 +70,8 @@ p {
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
-
 /* Header start */
 #header {
   display: flex;

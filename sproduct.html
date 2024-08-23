@@ -7,12 +7,16 @@
     <title>E-commerce Website</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    rel="stylesheet"
+  />
 
 </head>
 <body>
 
 <section id="header">
-    <a href="#"><img src="imgs/img/logo.png" class="logo" alt=""></a>
+    <a href="index.html"><img src="imgs/img/logo.png" class="logo" alt=""></a>
     <div>
         <ul id="navbar">
             <li><a  href="index.html">Home</a></li>
@@ -30,7 +34,7 @@
     </div>
 </section>
 <section id="prodetails" class="section-p1">
-    <div class="single-pro-image">
+    <div class="single-pro-image" data-aos="fade-right" >
         <img src="imgs/img/products/f1.jpg" width="100%" id="MainImg" alt="">
 
         <div class="small-img-group">
@@ -42,7 +46,7 @@
 
         </div>
     </div>
-    <div class="single-pro-details">
+    <div class="single-pro-details" data-aos="fade-left">
 
         <h6>Home / T-Shirt</h6>
         <h4>Men's Fashion T-Shirt</h4>
@@ -60,11 +64,11 @@
         <span>Give your summer wardrobe a style upgrade with the HRX Men's Active T-Shirt. Team it with a pair of shorts for your morning workout or a denims for an evening out with the guys.</span>
     </div>
 </section>
-<section id="product1" class="section-p1">
+<section id="product1" class="section-p1" data-aos="fade-up">
     <h2>Featured Products</h2>
     <p>Summer Collection New Modern Design</p>
     <div class="pro-container">
-        <div class="pro">
+        <div class="pro" data-aos="fade-right">
             <img src="./imgs/img/products/n1.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -79,7 +83,8 @@
                 <h4>$78</h4>
             </div>
             <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>  <div class="pro">
+            </div> 
+            <div class="pro" data-aos="fade-right">
             <img src="./imgs/img/products/n2.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -94,7 +99,7 @@
                 <h4>$90</h4>
             </div>
             <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>  <div class="pro">
+        </div>  <div class="pro" data-aos="fade-left">
             <img src="./imgs/img/products/n3.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -109,7 +114,7 @@
                 <h4>$67</h4>
             </div>
             <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>  <div class="pro">
+        </div>  <div class="pro" data-aos="fade-left">
             <img src="./imgs/img/products/n4.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -139,7 +144,7 @@
         </div>
     </section>
 
-    <footer class="section-p1">
+    <footer class="section-p1" data-aos="fade-down">
         <div class="col">
             <img class="logo" src="./imgs/img/logo.png" alt="">
             <h4>Contact</h4>
@@ -188,6 +193,12 @@
         </div>
     </footer>
 <script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1450,
+  });
+</script>
 </body>
 </html>                            
 
