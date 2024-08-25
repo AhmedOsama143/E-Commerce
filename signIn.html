@@ -1,3 +1,4 @@
+<!-- register.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,119 +29,54 @@
           <li><a href="shop.html">shop</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a class="active" href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li id="lg-bag">
             <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
           </li>
           <a href="#" id="close"><i class="far fa-times"></i></a>
-          <button id="signButton">Sign Up</button>
+          <button id="SignButton" class="Sign">Sign In</button>
         </ul>
       </div>
       <div id="mobile">
         <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
         <i id="bar" class="fas fa-outdent"></i>
-        <button id="SignupButton" class="Sign">Sign Up</button>
+        <button id="SignButton" class="Sign">Sign In</button>
       </div>
     </section>
 
-    <section id="page-header" class="about-header">
-      <h2>#let's_talk</h2>
-      <p>LEAVE A MESSAGE, We love to hear from you</p>
+    <section id="signup-page" class="about-header">
+      <h2>#Sign_In</h2>
+      <p>Welcome back again , we are happy to have you</p>
     </section>
-    <section id="contact-details" class="section-p1" data-aos="fade-left">
-      <div class="details">
-        <span>GET IN TOUCH</span>
-        <h2>Visit one of our agency locations or contact us today</h2>
-        <h3>Head Office</h3>
-        <div>
-          <li>
-            <i class="fal fa-map"></i>
-            <p>56 Glassford Drive Glasgow G1 1UL New York</p>
-          </li>
-          <li>
-            <i class="far fa-envelope"></i>
-            <p>contact@example.com</p>
-          </li>
-          <li>
-            <i class="fas fa-phone-alt"></i>
-            <p>contact@example</p>
-          </li>
-          <li>
-            <i class="far fa-clock"></i>
-            <p>10:00 - 18:00, Mon - Sat</p>
-          </li>
-        </div>
-      </div>
 
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109198.6048283229!2d30.002267736152724!3d31.20808251300677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2z2KfZhNil2LPZg9mG2K_YsdmK2KnYjCDZhdit2KfZgdi42Kkg2KfZhNil2LPZg9mG2K_YsdmK2Kk!5e0!3m2!1sar!2seg!4v1719814352791!5m2!1sar!2seg"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-    </section>
     <section id="form-details" data-aos="fade-left">
       <form action="">
-        <span>LEAVE A MESSAGE</span>
-        <h2>We love to hear from you</h2>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Email" required />
-        <input type="text" placeholder="Subject" required />
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Your Message"
-          required
-        ></textarea>
-        <button class="normal">Submit</button>
+        <h3>Sign In</h3>
+        <h2></h2>
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
       </form>
-      <div class="people">
-        <div>
-          <img src="imgs/img/people/1.png" alt="" />
-          <p>
-            <span>John Doe</span>Senior Marketing Manager <br />
-            Phone: + 000 123 000 77 88 <br />
-            Email: 8Bp0G@example.com
-          </p>
+      <div class="checkbox-container">
+        <input type="checkbox" id="terms" name="terms" />
+        <label for="terms">I agree with the terms and conditions</label>
+      </div>
+
+      <button class="normal">Sign In</button>
+
+      <p>Don't have an account? <a href="sign.html">Sign Up</a></p>
+      <div class="alternative-signup">
+        <div class="text">
+          <p>Or Sign In with:</p>
         </div>
-        <div>
-          <img src="imgs/img/people/2.png" alt="" />
-          <p>
-            <span>William Smith</span>Senior Marketing Manager <br />
-            Phone: + 000 123 000 77 88 <br />
-            Email: 8Bp0G@example.com
-          </p>
-        </div>
-        <div>
-          <img src="imgs/img/people/3.png" alt="" />
-          <p>
-            <span>Emma Stone</span>Senior Marketing Manager <br />
-            Phone: + 000 123 000 77 88 <br />
-            Email: 8Bp0G@example.com
-          </p>
+
+        <div class="icons">
+          <i id="facebook" class="fab fa-facebook-f"></i>
+          <i id="google" class="fab fa-google"></i>
+          <i id="github" class="fab fa-github"></i>
         </div>
       </div>
     </section>
-    <section id="newsletter" class="section-p1">
-      <div class="newstext">
-        <h4>Sign Up For Newsletters</h4>
-        <p>
-          Get E-mail updates about our latest shop and
-          <span>special offers.</span>
-        </p>
-      </div>
-      <div class="form">
-        <input type="text" placeholder="Your email address" />
-        <button class="normal">Sign Up</button>
-      </div>
-    </section>
+
     <footer class="section-p1" data-aos="fade-down">
       <div class="col">
         <img class="logo" src="./imgs/img/logo.png" alt="" />
