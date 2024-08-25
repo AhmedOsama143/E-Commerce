@@ -1279,6 +1279,7 @@ footer a:hover {
     display: flex;
     align-items: end;
     margin-left: 20%;
+    gap: 10px;
   }
   .section-p1 {
     padding: 20px;
